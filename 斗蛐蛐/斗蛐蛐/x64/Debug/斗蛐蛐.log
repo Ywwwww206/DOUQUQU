@@ -1,0 +1,58 @@
+﻿  斗蛐蛐.cpp
+  斗蛐蛐Dlg.cpp
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(281,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(286,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(291,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(296,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(313,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(325,59): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(325,43): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(329,68): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(329,43): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(461,23): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(460,24): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(467,26): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(466,25): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(501,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(615,64): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(615,42): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(616,64): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+D:\tools\vs\dazuoye\斗蛐蛐\斗蛐蛐\斗蛐蛐Dlg.cpp(616,41): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+  (编译源文件“/斗蛐蛐Dlg.cpp”)
+  
+  正在生成代码...
+  斗蛐蛐.vcxproj -> D:\tools\vs\dazuoye\斗蛐蛐\x64\Debug\斗蛐蛐.exe
