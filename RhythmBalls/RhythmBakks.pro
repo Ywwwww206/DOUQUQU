@@ -4,6 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 CONFIG += c++17
 
 SOURCES += \
+    coverwidget.cpp \
     main.cpp \
     mainwindow.cpp \
     audioprocessor.cpp \
@@ -11,6 +12,7 @@ SOURCES += \
     collisionsound.cpp
 
 HEADERS += \
+    coverwidget.h \
     mainwindow.h \
     audioprocessor.h \
     ball.h \
@@ -20,3 +22,5 @@ HEADERS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES +=

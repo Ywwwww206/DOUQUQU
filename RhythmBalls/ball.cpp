@@ -39,7 +39,7 @@ void Ball::setSkin(const QPixmap &pixmap)
 
 int Ball::computeAttack() const
 {
-    const qreal MAX_SPEED = 15.0;   // 最大映射速度
+    const qreal MAX_SPEED = 15.0;
     qreal s = qMin(speed(), MAX_SPEED);
     int attack = 10 + static_cast<int>((s / MAX_SPEED) * 90);
     return qBound(10, attack, 100);
@@ -54,7 +54,6 @@ void Ball::takeDamage(int damage)
 {
     m_hp -= damage;
     if (m_hp <= 0) {
-        // 标记死亡，稍后统一清理
         m_dead = true;
     }
 }
@@ -66,7 +65,6 @@ void Ball::advance(int phase)
     QRectF bound = m_bounds.isValid() ? m_bounds :
                        QRectF(0, 0, scene()->width(), scene()->height() * 0.9);
 
-    // 重力
     m_vy += m_gravity;
     qreal newX = x() + m_vx;
     qreal newY = y() + m_vy;

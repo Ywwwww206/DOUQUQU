@@ -10,9 +10,11 @@
 #include <QPushButton>
 #include <QDragEnterEvent>
 #include <QPixmap>
+#include <QStackedWidget>
 #include "ball.h"
 #include "audioprocessor.h"
 #include "collisionsound.h"
+#include "coverwidget.h"
 
 class MainWindow : public QMainWindow
 {
@@ -24,20 +26,25 @@ public:
 
 protected:
     void dragEnterEvent(QDragEnterEvent *event) override;
+    void resizeEvent(QResizeEvent *event) override;
 
 private slots:
+    void startGame();               // 点击封面开始按钮
     void onMapAnimationStep();
     void onMapAnimationFinished();
-    void onAddBall();              // 添加小球
-    void onSelectSkin();          // 选择皮肤图片
-    void updatePhysics();         // 物理更新 + 碰撞检测
+    void onAddBall();
+    void onSelectSkin();
+    void updatePhysics();
 
 private:
     void setupScene();
     void setupUI();
     void startAudioFile(const QString &filePath);
-    void handleCollisions();      // 检测并处理所有小球碰撞
-    void applySkinToAll();        // 将当前皮肤应用到所有小球
+    void handleCollisions();
+    void applySkinToAll();
+
+    QStackedWidget *m_stackedWidget;
+    CoverWidget *m_coverWidget;
 
     QGraphicsScene *m_scene;
     QGraphicsView *m_view;
@@ -62,7 +69,7 @@ private:
 
     QString m_pendingFilePath;
     bool m_mapReady = false;
-    QPixmap m_globalSkin;          // 全局皮肤图片
+    QPixmap m_globalSkin;
 };
 
 #endif // MAINWINDOW_H
